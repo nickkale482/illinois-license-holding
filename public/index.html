@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Keep your Illinois real estate broker license active for just $109/year. No MLS fees, no association dues. Earn 80% referral commissions. Operated by Kale Realty in Chicago since 2007.">
+<title>Illinois Real Estate License Holding Company — $109/Year | Keep Your License Active</title>
+<link rel="canonical" href="https://illinoisrealestatelicenseholding.com/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Illinois Real Estate License Holding Company",
+  "description": "Illinois Real Estate License Holding Company allows Illinois-licensed real estate brokers to keep their license active for $109/year with no MLS fees. Earn 80% referral commissions. Operated by Kale Realty in Chicago, IL.",
+  "url": "https://illinoisrealestatelicenseholding.com",
+  "telephone": "+13122389796",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3323 W Diversey Ave #14",
+    "addressLocality": "Chicago",
+    "addressRegion": "IL",
+    "postalCode": "60647",
+    "addressCountry": "US"
+  },
+  "areaServed": "Illinois",
+  "priceRange": "$109/year",
+  "parentOrganization": {
+    "@type": "RealEstateAgent",
+    "name": "Kale Realty",
+    "url": "https://kalerealty.com"
+  }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy:       #0a2540;
+    --navy-mid:   #122f50;
+    --navy-light: #1a3f6b;
+    --gold:       #c9a84c;
+    --gold-light: #e8c96b;
+    --cream:      #f8f9fc;
+    --cream-dark: #eef1f6;
+    --text:       #1a1a2e;
+    --muted:      #556070;
+    --border:     #dde3ec;
+    --radius:     12px;
+    --shadow:     0 2px 16px rgba(0,0,0,0.07);
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  /* ── Topbar ── */
+  .topbar {
+    background: var(--navy);
+    padding: 0.65rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  .topbar-brand {
+    font-family: 'Lora', serif;
+    font-size: 0.9rem;
+    color: #fff;
+    letter-spacing: 0.2px;
+    line-height: 1.3;
+  }
+  .topbar-brand span { color: var(--gold); }
+  .topbar-links { display: flex; gap: 1.5rem; flex-shrink: 0; }
+  .topbar-links a {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+  .topbar-links a:hover { color: var(--gold); }
+
+  /* ── Hero ── */
+  .hero {
+    background: linear-gradient(155deg, var(--navy) 0%, var(--navy-mid) 55%, var(--navy-light) 100%);
+    color: #fff;
+    padding: 5.5rem 2rem 5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.025'%3E%3Cpath d='M0 0h40v40H0zm40 40h40v40H40z'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  .hero-inner { position: relative; max-width: 720px; margin: 0 auto; }
+  .hero-label {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    background: rgba(201,168,76,0.12);
+    border: 1px solid rgba(201,168,76,0.3);
+    border-radius: 50px;
+    padding: 0.3rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .hero h1 {
+    font-family: 'Lora', serif;
+    font-size: clamp(1.9rem, 5vw, 3.1rem);
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 em { font-style: italic; color: var(--gold-light); }
+  .hero-subtitle {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    color: rgba(255,255,255,0.78);
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+  }
+
+  /* Stats bar */
+  .stats-bar {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 0;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 16px;
+    padding: 1.25rem 2rem;
+    margin-bottom: 2.5rem;
+    backdrop-filter: blur(4px);
+  }
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.4rem 1.5rem;
+  }
+  .stat-item + .stat-item {
+    border-left: 1px solid rgba(255,255,255,0.15);
+  }
+  .stat-value {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+  .stat-label {
+    font-size: 0.68rem;
+    color: rgba(255,255,255,0.55);
+    letter-spacing: 0.5px;
+    margin-top: 0.2rem;
+    text-transform: uppercase;
+  }
+
+  .hero-cta {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--navy);
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.3px;
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+    box-shadow: 0 4px 24px rgba(201,168,76,0.45);
+  }
+  .hero-cta:hover { background: var(--gold-light); transform: translateY(-1px); }
+  .hero-cta-sub {
+    display: block;
+    margin-top: 0.9rem;
+    font-size: 0.73rem;
+    color: rgba(255,255,255,0.4);
+  }
+
+  /* ── Shared section styles ── */
+  .section-label {
+    font-size: 0.67rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.6rem;
+  }
+  .section-heading {
+    text-align: center;
+    margin-bottom: 2.75rem;
+  }
+  .section-heading h2 {
+    font-family: 'Lora', serif;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 600;
+    color: var(--navy);
+    letter-spacing: -0.3px;
+  }
+  .section-heading p {
+    margin-top: 0.75rem;
+    color: var(--muted);
+    font-size: 0.97rem;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ── About ── */
+  .about-section {
+    background: #fff;
+    border-bottom: 1px solid var(--border);
+    padding: 5rem 2rem;
+  }
+  .about-inner {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about-inner h2 {
+    font-family: 'Lora', serif;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 600;
+    color: var(--navy);
+    letter-spacing: -0.3px;
+    margin-bottom: 1.5rem;
+  }
+  .about-inner p {
+    font-size: 1rem;
+    line-height: 1.9;
+    color: var(--muted);
+  }
+
+  /* ── How It Works ── */
+  .how-section {
+    background: var(--cream-dark);
+    padding: 5rem 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .how-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .how-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 2rem 1.5rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+    position: relative;
+  }
+  .how-number {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.25rem;
+    box-shadow: 0 4px 12px rgba(10,37,64,0.25);
+  }
+  .how-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 0.6rem;
+  }
+  .how-card p {
+    font-size: 0.88rem;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+  .how-card .how-highlight {
+    display: inline-block;
+    margin-top: 0.9rem;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--gold);
+  }
+
+  /* ── Who Should Join ── */
+  .who-section {
+    background: #fff;
+    padding: 5rem 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .who-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    max-width: 940px;
+    margin: 0 auto;
+  }
+  .who-card {
+    background: var(--cream);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.4rem 1.5rem 1.4rem 1.25rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.9rem;
+    box-shadow: var(--shadow);
+  }
+  .who-check {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--navy);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.1rem;
+  }
+  .who-check svg { width: 12px; height: 12px; fill: none; stroke: #fff; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+  .who-card p {
+    font-size: 0.9rem;
+    color: var(--text);
+    line-height: 1.55;
+  }
+
+  /* ── FAQ ── */
+  .faq-section {
+    background: var(--cream-dark);
+    padding: 5rem 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .faq-inner {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .faq-list { display: flex; flex-direction: column; gap: 0.75rem; }
+  details.faq-item {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  details.faq-item summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.15rem 1.4rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--navy);
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+  details.faq-item summary::-webkit-details-marker { display: none; }
+  details.faq-item summary::after {
+    content: '+';
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--gold);
+    flex-shrink: 0;
+    transition: transform 0.2s;
+  }
+  details.faq-item[open] summary::after { transform: rotate(45deg); }
+  details.faq-item summary:hover { background: var(--cream); }
+  .faq-answer {
+    padding: 1rem 1.4rem 1.25rem;
+    font-size: 0.92rem;
+    line-height: 1.78;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+  }
+  .faq-answer a { color: var(--navy-light); font-weight: 600; text-decoration: none; }
+  .faq-answer a:hover { text-decoration: underline; }
+
+  /* ── CTA ── */
+  .cta-section {
+    background: var(--navy);
+    color: #fff;
+    padding: 5.5rem 2rem;
+    text-align: center;
+  }
+  .cta-inner { max-width: 620px; margin: 0 auto; }
+  .cta-section .section-label { color: var(--gold); margin-bottom: 0.75rem; }
+  .cta-section h2 {
+    font-family: 'Lora', serif;
+    font-size: clamp(1.75rem, 4vw, 2.4rem);
+    font-weight: 600;
+    margin-bottom: 0.9rem;
+    letter-spacing: -0.3px;
+  }
+  .cta-section p {
+    font-size: 0.97rem;
+    color: rgba(255,255,255,0.65);
+    line-height: 1.7;
+    margin-bottom: 2.25rem;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .cta-btn-primary {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--navy);
+    font-weight: 700;
+    font-size: 0.97rem;
+    padding: 1rem 2.25rem;
+    border-radius: 50px;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    box-shadow: 0 4px 20px rgba(201,168,76,0.4);
+    transition: background 0.2s, transform 0.15s;
+  }
+  .cta-btn-primary:hover { background: var(--gold-light); transform: translateY(-1px); }
+  .cta-btn-secondary {
+    display: inline-block;
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.95rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 2px solid rgba(255,255,255,0.3);
+    transition: border-color 0.2s, background 0.2s, transform 0.15s;
+  }
+  .cta-btn-secondary:hover { border-color: var(--gold); background: rgba(201,168,76,0.1); transform: translateY(-1px); }
+
+  /* ── Footer ── */
+  footer {
+    background: #060f1a;
+    color: rgba(255,255,255,0.45);
+    padding: 2.5rem 2rem;
+    text-align: center;
+    font-size: 0.78rem;
+    line-height: 1.9;
+  }
+  footer strong { color: rgba(255,255,255,0.75); }
+  footer a { color: var(--gold); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  .footer-divider {
+    margin: 0.75rem auto;
+    opacity: 0.15;
+    border: none;
+    border-top: 1px solid #fff;
+    max-width: 200px;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 700px) {
+    .topbar { flex-direction: column; gap: 0.5rem; text-align: center; }
+    .how-grid { grid-template-columns: 1fr; max-width: 420px; }
+    .stats-bar { gap: 0.5rem 0; }
+    .stat-item + .stat-item { border-left: none; border-top: 1px solid rgba(255,255,255,0.15); }
+    .cta-buttons { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Topbar -->
+<div class="topbar">
+  <div class="topbar-brand">Illinois Real Estate <span>License Holding Company</span></div>
+  <nav class="topbar-links">
+    <a href="https://illinoisrealestatelicenseholding.com/sign-up/" target="_blank" rel="noopener">Sign Up</a>
+    <a href="https://kalerealty.com" target="_blank" rel="noopener">Kale Realty</a>
+    <a href="https://joinkale.com" target="_blank" rel="noopener">Join Kale</a>
+  </nav>
+</div>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-label">Illinois Real Estate License Holding</div>
+    <h1>Keep Your Illinois Real Estate<br>License Active for <em>Just $109/Year</em></h1>
+    <p class="hero-subtitle">No MLS fees. No association dues. No hidden costs.<br>Earn 80% referral commissions whenever you're ready.</p>
+
+    <div class="stats-bar">
+      <div class="stat-item">
+        <div class="stat-value">1,047</div>
+        <div class="stat-label">Active Agents</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">$109</div>
+        <div class="stat-label">Per Year</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">80%</div>
+        <div class="stat-label">Referral Commission</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">2007</div>
+        <div class="stat-label">Est. by Kale Realty</div>
+      </div>
+    </div>
+
+    <a href="https://illinoisrealestatelicenseholding.com/sign-up/" target="_blank" rel="noopener" class="hero-cta">
+      Sign Up for $109/Year &rarr;
+    </a>
+    <span class="hero-cta-sub">illinoisrealestatelicenseholding.com</span>
+  </div>
+</section>
+
+<!-- About -->
+<section class="about-section">
+  <div class="about-inner">
+    <div class="section-label">About Us</div>
+    <h2>Illinois Real Estate License Holding Company</h2>
+    <p>Illinois Real Estate License Holding Company is operated by Kale Realty, a family-owned Chicago brokerage founded in 2007. It is one of the only companies in Illinois dedicated exclusively to holding active real estate broker licenses for agents who are not actively selling — whether they are semi-retired, working part-time, between brokerages, or newly licensed. For just $109 per year — with no MLS fees, no association dues, and no other hidden costs — agents can keep their Illinois broker license active and earn 80% referral commissions whenever they refer a buyer or seller to any broker they choose.</p>
+  </div>
+</section>
+
+<!-- How It Works -->
+<section class="how-section">
+  <div class="section-heading">
+    <div class="section-label">Simple Process</div>
+    <h2>How It Works</h2>
+    <p>Three steps. No complexity. No surprises.</p>
+  </div>
+  <div class="how-grid">
+    <div class="how-card">
+      <div class="how-number">1</div>
+      <h3>Pay Your Annual Fee</h3>
+      <p>Join online in minutes. No MLS dues, no association fees, no desk fees — ever.</p>
+      <span class="how-highlight">$109 / year</span>
+    </div>
+    <div class="how-card">
+      <div class="how-number">2</div>
+      <h3>Refer Buyers &amp; Sellers</h3>
+      <p>Refer clients to any licensed broker you choose — a friend, a family member, anyone.</p>
+    </div>
+    <div class="how-card">
+      <div class="how-number">3</div>
+      <h3>Earn Your Commission</h3>
+      <p>When the deal closes, you receive 80% of the referral commission — paid to you directly.</p>
+      <span class="how-highlight">80% to you</span>
+    </div>
+  </div>
+</section>
+
+<!-- Who Should Join -->
+<section class="who-section">
+  <div class="section-heading">
+    <div class="section-label">Is This Right for You?</div>
+    <h2>Who Should Join</h2>
+  </div>
+  <div class="who-grid">
+    <div class="who-card">
+      <div class="who-check">
+        <svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg>
+      </div>
+      <p>Agents who want to stay licensed but not pay full MLS and association dues</p>
+    </div>
+    <div class="who-card">
+      <div class="who-check">
+        <svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg>
+      </div>
+      <p>Part-time brokers with another primary career who refer clients occasionally</p>
+    </div>
+    <div class="who-card">
+      <div class="who-check">
+        <svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg>
+      </div>
+      <p>Newly licensed agents who haven't yet found a managing broker</p>
+    </div>
+    <div class="who-card">
+      <div class="who-check">
+        <svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg>
+      </div>
+      <p>Agents nearing retirement who want to keep their license active</p>
+    </div>
+    <div class="who-card">
+      <div class="who-check">
+        <svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg>
+      </div>
+      <p>Anyone between brokerages who needs a temporary home for their license</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section">
+  <div class="faq-inner">
+    <div class="section-heading">
+      <div class="section-label">Common Questions</div>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-list">
+
+      <details class="faq-item">
+        <summary>What is an Illinois real estate license holding company?</summary>
+        <div class="faq-answer">A license holding company allows Illinois-licensed real estate brokers to keep their license active without being affiliated with a full-service brokerage. Instead of paying MLS fees and association dues, agents pay a small annual fee and can still earn referral commissions.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How much does it cost to hold my Illinois real estate license?</summary>
+        <div class="faq-answer">Illinois Real Estate License Holding Company charges just $109 per year — with no MLS fees, no association dues, and no other hidden costs.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Can I still earn money with a held license?</summary>
+        <div class="faq-answer">Yes. You can refer buyers and sellers to any licensed broker you choose and earn 80% of the referral commission when the transaction closes.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>What happens if my Illinois real estate license expires?</summary>
+        <div class="faq-answer">Once expired, you must retake education requirements and pay reinstatement fees to become active again. Keeping your license active through a holding company is far less expensive than letting it lapse.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Who operates Illinois Real Estate License Holding Company?</summary>
+        <div class="faq-answer">The company is operated by Kale Realty, a family-owned Chicago real estate brokerage located at 3323 W Diversey Ave, Chicago IL 60647. Phone: <a href="tel:+13122389796">312-238-9796</a>.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How do I sign up?</summary>
+        <div class="faq-answer">Visit <a href="https://illinoisrealestatelicenseholding.com/sign-up/" target="_blank" rel="noopener">illinoisrealestatelicenseholding.com/sign-up</a> to join online in minutes.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>What is the difference between a holding company and a full-service brokerage?</summary>
+        <div class="faq-answer">A full-service brokerage requires agents to pay MLS dues, association fees, and desk fees in exchange for full brokerage support. A holding company simply keeps your license active at minimal cost — ideal for agents not actively selling.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Can I upgrade from the holding company to a full brokerage?</summary>
+        <div class="faq-answer">Yes. Many agents who hold their license with us eventually join Kale Realty as full active agents when they are ready to sell again. Visit <a href="https://joinkale.com" target="_blank" rel="noopener">joinkale.com</a> to learn more.</div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <div class="section-label">Get Started Today</div>
+    <h2>Ready to Keep Your License Active?</h2>
+    <p>Join over 1,000 Illinois agents who keep their license active for $109/year — with no MLS fees and 80% referral commissions.</p>
+    <div class="cta-buttons">
+      <a href="https://illinoisrealestatelicenseholding.com/sign-up/" target="_blank" rel="noopener" class="cta-btn-primary">
+        Sign Up for $109/Year &rarr;
+      </a>
+      <a href="https://joinkale.com" target="_blank" rel="noopener" class="cta-btn-secondary">
+        Ready to sell again? Join Kale Realty
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <strong>Illinois Real Estate License Holding Company</strong> &middot; Operated by Kale Realty<br>
+  3323 W Diversey Ave #14, Chicago IL 60647 &middot; <a href="tel:+13122389796">312-238-9796</a>
+  <hr class="footer-divider">
+  <a href="https://illinoisrealestatelicenseholding.com" target="_blank" rel="noopener">illinoisrealestatelicenseholding.com</a>
+  &nbsp;&bull;&nbsp;
+  <a href="https://kalerealty.com" target="_blank" rel="noopener">kalerealty.com</a>
+  &nbsp;&bull;&nbsp;
+  <a href="https://joinkale.com" target="_blank" rel="noopener">joinkale.com</a>
+</footer>
+
+</body>
+</html>
